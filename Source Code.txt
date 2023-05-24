@@ -1,0 +1,53 @@
+import time
+from colorama import init, Fore, Back, Style
+init()
+
+print("Starting Matfix")
+time.sleep(1)
+print(Back.GREEN + "г=¬г=¬  г¬г=¬")
+print(Back.GREEN + "¦¦L-¦¦ г-L¦г-")
+print(Back.GREEN + "¦г¬г¬¦=¦¬г-LTT¬г¬")
+print(Back.GREEN + "¦¦¦¦¦¦г¬¦¦¬г++++-")
+print(Back.GREEN + "¦¦¦¦¦¦г¬¦L¦¦¦¦++¬")
+print(Back.GREEN + "L-L-L¦-L¦=¦-L¦-L-")
+print(Back.BLACK + "Matfix version 1.1")
+print("-------------------------------------------------------")
+print("WARNING: It is better not to write in capital letters")
+print("-------------------------------------------------------")
+ram1 = "32mb"
+rom1 = "100mb"
+print("in 5 seconds you will be redirected to Matfix")
+time.sleep(5)
+print("Matfix: Hi My Name Is Matfix")
+while True:
+    command1 = input("User: ")
+    if command1 == "hi":
+        print("Matfix: Hello")
+    if command1 == "help":
+        print("Matfix Command Version 1.0")
+        print("hi (Hello)")
+        print("matfix room (User Room Beta)")
+        print("pip instal modules (list of modules)")
+        print("calculator")
+        print("-------------------------------------------------------")
+        print("|               All Command Matfix                    |")
+        print("-------------------------------------------------------")
+    if command1 == "pip instal modules":
+        print("BeautifulSoup <3.2.1>")
+        print("beautifulsoup4 <4.4.1>")
+        print("bs4 <0.0.1>")
+        print("googlesearch <0.7.0>")
+        print("kmodes <0.4>")
+        print("myModule")
+    if command1 == "calculator":
+        calc1 = float (input("Eng: see number 1 Rus: видите 1-ое число: "))
+        calc2 = float (input("Eng: see number 2 Rus: видите 2-ое число: "))
+        calc3 = input("Eng: What do you want to do(+,- Rus: Что вы хотите сделать(+,-): ")
+        if calc3 == "+":
+            answer1 = (calc1 + calc2)
+            print(str(answer1))
+            print("Eng: decided Rus: Решено")
+        if calc3 == "-":
+            answer1 = (calc1 - calc2)
+            print(str(answer1))
+            print("Eng: decided Rus: Решено")
